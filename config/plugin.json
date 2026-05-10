@@ -1,0 +1,63 @@
+{
+  "scaffoldVersion": "0.4.1",
+  "name": "LockConsole",
+  "displayName": "LockConsole",
+  "version": "0.1.0",
+  "author": "Sujlin",
+  "entryModule": "src.main_entry",
+  "sourceRoots": [
+    "src",
+    "ma3lib",
+    "vendor"
+  ],
+  "manualDependencies": [],
+  "externalDependencies": [],
+  "bundle": {
+    "entryMode": "inline"
+  },
+  "ma3": {
+    "pluginSubdir": "Sujlin_lock_console",
+    "outputFile": "LockConsole.lua",
+    "componentFileName": "LockConsole.lua",
+    "componentFilePath": "Sujlin_lock_console",
+    "installed": true,
+    "version": "auto",
+    "target": "internal",
+    "xmlMode": "installed",
+    "xmlFile": "LockConsole.xml",
+    "luaFile": "LockConsole.lua",
+    "dataVersion": "2.3.2.0"
+  },
+  "localOutput": "dist/LockConsole.lua",
+  "xmlOutput": "dist/LockConsole.xml",
+  "assets": {
+    "images": [
+      {
+        "name": "LockConsole_Icon",
+        "file": "assets/images/plugin_icon.png",
+        "appearanceName": "LockConsole Icon",
+        "useAsPluginAppearance": true,
+        "imageMode": "Crop",
+        "backColor": {
+          "r": 25,
+          "g": 25,
+          "b": 30,
+          "alpha": 255
+        }
+      },
+      {
+        "name": "LockConsole_LockScreen",
+        "file": "assets/images/lock_screen.png",
+        "appearanceName": "LockConsole Lock Screen",
+        "useAsPluginAppearance": false,
+        "imageMode": "Stretch",
+        "backColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "alpha": 255
+        }
+      }
+    ]
+  }
+}
